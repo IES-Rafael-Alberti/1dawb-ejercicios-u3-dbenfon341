@@ -3,9 +3,15 @@
 # donde <asignatura> sobre cada una de las asignaturas de la lista.
 
 
+def asignaturas():
+    materias = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+    for materia in materias:
+        materia_print = print(f"Yo estudio {materia}")
+    return materia_print
 
 
 def main():
+    asignaturas()
 
 
 if __name__ == "__main__":
