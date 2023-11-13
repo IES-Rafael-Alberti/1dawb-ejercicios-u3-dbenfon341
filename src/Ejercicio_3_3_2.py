@@ -6,3 +6,10 @@
 # Mostrar qué nombres se repiten entre los alumnos de primaria y secundaria.
 # Mostrar qué nombres de primaria no se repiten en los de nivel secundaria.
 # Mostrar si todos los nombres de primaria están incluidos en secundaria.
+
+
+def main():
+
+
+if __name__ == "__main__":
+    main()

@@ -8,3 +8,10 @@
 # Artículo 3	Precio
 # …	…
 # Total	Coste
+
+
+def main():
+
+
+if __name__ == "__main__":
+    main()

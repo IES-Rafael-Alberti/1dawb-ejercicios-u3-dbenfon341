@@ -8,3 +8,10 @@
 # 
 # >>> conjunto_potencia({6, 1, 4})
 # [set(), set([6]), set([1]), set([4]), set([6, 1]), set([6, 4]), set([1, 4]), set([6, 1, 4])]
+
+
+def main():
+
+
+if __name__ == "__main__":
+    main()
