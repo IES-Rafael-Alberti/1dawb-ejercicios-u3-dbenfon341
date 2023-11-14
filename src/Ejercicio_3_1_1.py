@@ -4,14 +4,13 @@
 
 def asignaturas():
     materias = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
-    materias.remove('Matemáticas')
-    for materia in materias:
-        materia_print = print(materia)
-    return materia_print
+    return materias
 
 
 def main():
-    asignaturas()
+    materias = asignaturas()
+    for materia in materias:
+        print (materia)
 
 
 if __name__ == "__main__":

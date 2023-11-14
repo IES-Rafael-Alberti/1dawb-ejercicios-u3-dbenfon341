@@ -5,18 +5,26 @@
 
 def asignaturas():
     materias = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
-    for materia in materias:
-        materia_print = print(materia)
-    return materia_print
+    return materias
 
 
-def notas(num1, num2, num3, num4, num5):
+def dame_notas(materias):
     notas = []
+    for materia in materias:
+        nota = float(input(f"Ingrese la nota de {materia}: "))
+        notas.append(nota)
+    return notas
 
+
+def mostrar_notas(materias, notas):
+    for i in range(len(materias)):
+        print(f"En {materias[i]} has sacado {notas[i]}.")
 
 
 def main():
-
+    materias = asignaturas()
+    notas = dame_notas(materias)
+    mostrar_notas(materias, notas)
 
 
 if __name__ == "__main__":

@@ -5,13 +5,13 @@
 
 def asignaturas():
     materias = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
-    for materia in materias:
-        materia_print = print(f"Yo estudio {materia}")
-    return materia_print
+    return materias
 
 
 def main():
-    asignaturas()
+    materias = asignaturas()
+    for materia in materias:
+        print (f"Yo estudio {materia}.")
 
 
 if __name__ == "__main__":
