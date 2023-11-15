@@ -5,7 +5,7 @@
 def numeros_orden():
     lista = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     lista.reverse()
-    numerosunidos = ', '.join(map(str, lista))
+    numerosunidos = ', '.join(lista)
     return numerosunidos
 
 
