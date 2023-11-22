@@ -8,6 +8,12 @@
 
 
 def main():
+    numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+    numeros_pares = {num for num in numeros if num % 2 == 0}
+    numeros_impares = {num for num in numeros if num % 2 == 1}
+    multiplos_de_tres = {num for num in numeros if num % 3 == 0}
+    pares_y_multiplos_de_tres = multiplos_de_tres & numeros_pares
+    print(pares_y_multiplos_de_tres)
 
 
 if __name__ == "__main__":
