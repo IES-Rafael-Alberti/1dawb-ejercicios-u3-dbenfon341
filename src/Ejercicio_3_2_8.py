@@ -15,12 +15,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-dinero:money, cabeza:head, amor:love
-
-Yo tengo dinero, cabeza, pa hacer el amor.
-
-Yo tengo money, head, pa hacer el love.

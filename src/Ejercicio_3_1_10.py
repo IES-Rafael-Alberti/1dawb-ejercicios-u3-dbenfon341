@@ -3,6 +3,15 @@
 
 
 def main():
+    precios = [50, 75, 46, 22, 80, 65, 8]
+
+
+    menor_precio = min(precios)
+    mayor_precio = max(precios)
+
+
+    print(f"El menor precio es: {menor_precio}")
+    print(f"El mayor precio es: {mayor_precio}")
 
 
 if __name__ == "__main__":

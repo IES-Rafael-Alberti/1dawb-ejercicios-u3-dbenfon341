@@ -6,10 +6,10 @@ def lista_abecedario():
     abecedarionumeros = [letra for index, letra in enumerate(lista) if (index + 1) % 3 != 0]
     return abecedarionumeros
 
+
 def main():
     final = lista_abecedario()
     print(final)
-
 
 if __name__ == "__main__":
     main()

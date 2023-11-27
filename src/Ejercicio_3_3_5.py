@@ -13,6 +13,8 @@ def main():
     numeros_impares = {num for num in numeros if num % 2 == 1}
     multiplos_de_tres = {num for num in numeros if num % 3 == 0}
     pares_y_multiplos_de_tres = multiplos_de_tres & numeros_pares
+
+
     print(pares_y_multiplos_de_tres)
 
 

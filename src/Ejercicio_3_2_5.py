@@ -16,8 +16,5 @@ def main():
     print (f"El número total es {total_creditos}")
 
 
-
-
-
 if __name__ == "__main__":
     main()
